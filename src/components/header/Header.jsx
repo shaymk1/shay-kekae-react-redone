@@ -1,4 +1,4 @@
-import ME from '../../assets/profile.jpeg';
+
 import CTA from './CTA';
 import './header.css';
 import HeaderSocial from './HeaderSocial';
@@ -12,9 +12,7 @@ const Header = () => {
 				<h3 className="text-light"> <span className='span'>Blockchain Solidity</span>Developer</h3>
 				<CTA />
 				<HeaderSocial />
-				<div className="me">
-					<img  className = 'me' src={ME} alt="my first profile pic" />
-				</div>
+			
 				<a href="#contact" className="scroll__down">
 					Scroll Down
 				</a>

@@ -11,7 +11,7 @@
 	background: linear-gradient(
 		45deg,
 		transparent,
-		var(--color-bg-variant),
+		var(--color-brown),
 		transparent
 	);
 	display: grid;
@@ -80,6 +80,7 @@
 
 @media screen  and(max-width:1024px) {
     .about__container{
+        
         grid-template-columns: 1fr;
         gap: 0;
     }
